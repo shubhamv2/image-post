@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.heart-btn{
+    outline: none;
+    font-size: 5em;
+    background-color: transparent;
+    border: none;
+    width: 200px;
+    height: 100px;
+    cursor: pointer;
+    color: red;
+    position: relative;
+}
+#heart-img{
+    width: 100px;
+}
+
+
+.heart-btn-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.card-wrapper{
+    display: none;
+}
+.card{
+    border: 1px solid rgba(0, 0, 0, 0.21);
+    padding: 1em;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.093);
+    cursor: pointer;
+    transition: all .3s;
+}
+.card:hover{
+    transform: scale(1.03);
+}
+.user-profile{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: .5em;
+}
+.profile-container{
+    width:40px;
+    height: 40px;
+}
+.profile-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100%;
+}
+
+.post-details{
+    width: 100%;
+   
+}
+.post-img-container{
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.post-img-container img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+}
+
+.post-icons{
+    font-size: 1.2em;
+}
+.left-icons{
+    display: flex;
+    gap: 1em;
+}
+.card-icons{
+    margin: 1em .2em 0em .2em;
+    display: flex;
+    justify-content: space-between;
+}
+
